@@ -18,7 +18,7 @@ overlay.addEventListener('click', () => {
 
 closeModalButtons.forEach(button =>{
     button.addEventListener('click', () => {
-        const modal = button.closest('.model')
+        const modal = button.closest('.modal')
         closeModal(modal)
     })
 })
